@@ -67,7 +67,7 @@ export function updateCurrentDataSourceDisplay(dataSourceType) {
   let className = "";
 
   if (dataSourceType === "upload") {
-    displayName = "アップロードデータ";
+    displayName = "ユーザデータ";
     className = "upload";
   } else {
     displayName = "デモデータ";

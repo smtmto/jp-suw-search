@@ -16,7 +16,10 @@
   <body>
     <div class="container">
       <header>
-        <h1>短単位検索システム</h1>
+        <h1>
+          短単位検索システム
+          <span class="version-label">v0.5.1</span>
+        </h1>
         <div id="current-data-source-display" class="data-source-indicator">
           <span id="current-data-source-name" class="default"
             >デフォルトデータ</span
@@ -297,7 +300,7 @@
         <div class="year-filter" id="upload-year-filter" style="display: none">
           <div class="year-category">
             <label class="year-category-label"
-              >年代フィルター (アップロードデータ)</label
+              >年代フィルター (ユーザデータ)</label
             >
             <div class="year-options"></div>
           </div>
@@ -875,7 +878,7 @@
         >
           <div class="year-category">
             <label class="year-category-label"
-              >年代フィルター (アップロードデータ)</label
+              >年代フィルター (ユーザデータ)</label
             >
             <div class="year-options"></div>
           </div>
@@ -1222,7 +1225,7 @@
             </div>
           </div>
           <div class="data-column">
-            <h3>アップロードデータ</h3>
+            <h3>ユーザデータ</h3>
             <div class="data-source-options vertical">
               <div class="radio-option">
                 <input
@@ -1233,7 +1236,7 @@
                   disabled
                 />
                 <label for="data-source-upload"
-                  >アップロードデータ (OpenCHJ形式)</label
+                  >ユーザデータ (OpenCHJ形式)</label
                 >
               </div>
             </div>
@@ -1257,7 +1260,7 @@
                   class="file-input-hidden"
                 />
                 <button id="upload-button" class="button-small" disabled>
-                  アップロード
+                  ファイル読み込み
                 </button>
                 <button
                   id="clear-upload-button"
@@ -1273,7 +1276,7 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     >OpenCHJ形式</a
-                  >のファイル(.txt)をアップロードできます。
+                  >のファイル(.txt)を読み込むことができます。
                 </li>
                 <li>
                   OpenCHJ形式へのフォーマットには
@@ -1285,9 +1288,7 @@
                   >
                   が利用できます。
                 </li>
-                <li>
-                  アップロード可能なファイル数は最大250件、合計60MBまでです。
-                </li>
+                <li>読み込み可能なファイル数は最大250件、合計60MBまでです。</li>
               </ul>
               <div id="upload-status-container" class="upload-status-margin">
                 <div

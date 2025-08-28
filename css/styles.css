@@ -69,6 +69,13 @@ header h1 {
   font-size: 24px;
 }
 
+header .version-label {
+  font-size: 0.6em;
+  color: var(--text-color-light);
+  font-weight: normal;
+  margin-left: 1.5em;
+}
+
 header p {
   color: var(--text-color-light);
   margin-top: var(--spacing-sm);

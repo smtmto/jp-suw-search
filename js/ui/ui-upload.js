@@ -338,7 +338,7 @@ export function displayErrorsToUser(errorCount, errorDetails) {
     const buttonContainer = document.createElement("div");
     buttonContainer.className = "error-modal-button-container";
     const continueButton = document.createElement("button");
-    continueButton.textContent = "そのままアップロードする";
+    continueButton.textContent = "そのまま読み込む";
     continueButton.className = "error-modal-button error-modal-continue-button";
     const cancelButton = document.createElement("button");
     cancelButton.textContent = "キャンセル";
